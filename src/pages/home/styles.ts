@@ -1,6 +1,6 @@
-import { styled, Heading, Text } from "@ignite-ui/react";
+import { styled, Heading, Text } from "@ignite-ui/react"
 
-export const Container = styled('div', {
+export const Container = styled("div", {
     display: "flex",
     maxWidth: "calc(100vw - (100vw - 1160px) / 2)",
     alignItems: "center",
@@ -9,7 +9,7 @@ export const Container = styled('div', {
     gap: "$20",
 })
 
-export const Hero = styled('div', {
+export const Hero = styled("div", {
     maxWidth: 520,
     padding: "0 $10",
 
@@ -24,7 +24,7 @@ export const Hero = styled('div', {
     },
 })
 
-export const Preview = styled('div', {
+export const Preview = styled("div", {
     paddingRight: "$8",
     overflow: "hidden",
     "@media(max-width: 600px)": {
